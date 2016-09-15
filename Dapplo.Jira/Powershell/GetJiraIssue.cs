@@ -53,7 +53,7 @@ namespace Dapplo.Jira.Powershell
 		/// <returns></returns>
 		protected override async Task ProcessRecordAsync()
 		{
-			var issue = await JiraApi.GetIssueAsync(IssueKey);
+			var issue = await JiraApi.Issue.GetAsync(IssueKey);
 			WriteObject(issue.Fields);
 		}
 	}

@@ -38,7 +38,7 @@ using System.Resources;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dapplo")]
-[assembly: AssemblyProduct("Dapplo.Jira.PCL")]
+[assembly: AssemblyProduct("Dapplo.Jira")]
 [assembly: AssemblyCopyright("Copyright © Dapplo 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
